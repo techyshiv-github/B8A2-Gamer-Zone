@@ -1,4 +1,42 @@
 @media screen and (max-width: 425px) {
-}
-@media screen and (min-width: 426px) and (max-width: 768px) {
+  :root {
+    font-size: 30%;
+  }
+  .banner-images img {
+    width: 80%;
+    object-fit: cover;
+  }
+  .nav-container,
+  .nav-menus {
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .banner-container {
+    width: 80%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-logo,
+  .nav-menus,
+  .banner-text,
+  .banner-images {
+    align-content: center;
+    justify-content: center;
+  }
+  .banner-images {
+    width: 80%;
+  }
+  .banner-text {
+    width: 70%;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin-inline: auto;
+  }
 }
