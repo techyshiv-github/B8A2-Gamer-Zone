@@ -88,3 +88,34 @@ nav {
   color: var(--blue_color);
 }
 /* Nav section styles start here */
+.banner-text {
+  width: 50%;
+}
+.banner-text span {
+  display: flex;
+  align-items: center;
+  color: var(--blue_light);
+  font-size: 2rem;
+  font-weight: 500;
+}
+.banner-text p {
+  font-size: 9.5rem;
+  font-weight: 800;
+}
+.banner-text h1 {
+  color: var(--blue_color);
+  font-size: 4.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-images {
+  width: 50%;
+}
+.banner-images img {
+  width: 100%;
+  object-fit: cover;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+}
