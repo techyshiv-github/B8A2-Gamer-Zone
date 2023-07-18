@@ -1,21 +1,29 @@
 @media screen and (max-width: 425px) {
   :root {
-    font-size: 30%;
+    font-size: 40%;
   }
   .banner-images img {
-    width: 80%;
+    width: 100%;
     object-fit: cover;
   }
   .nav-container,
-  .nav-menus {
-    width: 70%;
+  .nav-menus,
+  .wearegammer-container {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
   }
+  .wearegammer-section-text {
+    width: 100%;
+    text-align: center;
+  }
+  .wearegammer-section-image {
+    width: 100%;
+  }
   .banner-container {
-    width: 80%;
+    width: 100%;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
@@ -29,14 +37,15 @@
     justify-content: center;
   }
   .banner-images {
-    width: 80%;
+    width: 100%;
   }
   .banner-text {
-    width: 70%;
+    width: 100%;
+    padding: 5rem 0rem 5rem 10rem;
   }
 
   .wrapper {
-    width: 100%;
+    width: 80%;
     margin-inline: auto;
   }
 }
