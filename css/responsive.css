@@ -1,0 +1,18 @@
+@media screen and (max-width: 425px) {
+  body {
+    background-color: aqua;
+  }
+  h1::after {
+    content: "Welcome to Mobile";
+    background-color: azure;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  body {
+    background-color: blueviolet;
+  }
+  h1::after {
+    content: "Welcome to Tablet";
+    background-color: azure;
+  }
+}
