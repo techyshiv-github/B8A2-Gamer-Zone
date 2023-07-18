@@ -18,6 +18,18 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+.bottom-space {
+  margin-bottom: 1.6rem;
+}
+.title-text {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+.description-text {
+  color: var(--blue_light);
+  font-size: 2rem;
+  font-weight: 500;
+}
 .text-gradient {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -29,11 +41,11 @@ body {
   margin-inline: auto;
 }
 .button-primary {
-  padding: 2rem 4rem;
+  padding: 1rem 3rem;
   border: none;
-  border-radius: 4.8rem;
+  border-radius: 3rem;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
@@ -102,7 +114,8 @@ nav {
   text-decoration: none;
   color: var(--blue_color);
 }
-/* Nav section styles start here */
+/* Nav section styles end here */
+/* banner section styles start here */
 .banner-text {
   width: 50%;
 }
@@ -146,4 +159,37 @@ header {
   margin-top: 4rem;
   display: flex;
   gap: 2.4rem;
+}
+/* banner section styles end here */
+/*main section starts here */
+/* wearegammer section starts here */
+.wearegammer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wearegammer-section-image {
+  width: 60%;
+}
+.wearegammer-section-text {
+  width: 40%;
+  text-align: right;
+}
+.wearegammer-section-text h4 {
+  color: var(--blue_light);
+  font-family: Work Sans;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.wearegammer-section-text h3 {
+  color: var(--blue_light);
+
+  font-size: 2.6rem;
+
+  font-weight: 700;
+}
+
+.wearegammer-container img {
+  width: 100%;
+  object-fit: cover;
 }
