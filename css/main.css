@@ -25,14 +25,66 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .wrapper {
-  width: 1200px;
+  width: 1140px;
   margin-inline: auto;
 }
 
+/* Nav section styles start here */
+nav {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: var(--blue_color);
+}
+.logo {
+  width: 8.6rem;
+  margin-right: 2rem;
+}
+#logo-g-text {
+  color: var(--pink_color);
+}
+.nav-logo {
+  width: 50%;
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: var(--blue_color);
+}
 .nav-container {
-  height: 4rem;
-  background-color: var(--blue_grey);
+  padding: 3.6rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav-menus {
-  font-size: 3rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
+.follow-us {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--blue_grey);
+  border-radius: 0.8rem;
+  padding: 1.8rem 2.4rem;
+  cursor: pointer;
+}
+.follow-us img {
+  width: 2.4rem;
+}
+.nav-menus li {
+  list-style: none;
+}
+.nav-menus li a {
+  text-decoration: none;
+  color: var(--blue_color);
+}
+/* Nav section styles start here */
