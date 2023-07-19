@@ -257,3 +257,36 @@ header {
 .online-games-text {
   text-align: center;
 }
+.online-games {
+  margin-bottom: 30rem;
+}
+/* play instantly sectin style */
+.play-instantly {
+  margin-bottom: 5rem;
+}
+.play-instantly-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+.play-instantly-text {
+  width: 50%;
+  text-align: right;
+}
+.play-instantly-img {
+  position: relative;
+  width: 50%;
+}
+.play-instantly-main-img {
+  width: 100%;
+  object-fit: cover;
+}
+.play-instantly-sub-img {
+  width: 30%;
+  object-fit: cover;
+
+  position: absolute;
+  bottom: -2rem;
+  left: -6rem;
+}
