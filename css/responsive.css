@@ -6,6 +6,9 @@
     width: 100%;
     object-fit: cover;
   }
+  .play-instantly-container {
+    flex-direction: column;
+  }
   .online-games-cards {
     flex-direction: column;
     align-items: center;

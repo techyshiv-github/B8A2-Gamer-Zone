@@ -270,9 +270,19 @@ header {
   align-items: center;
   gap: 10rem;
 }
+.play-instantly-container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
 .play-instantly-text {
   width: 50%;
   text-align: right;
+}
+.play-instantly-text2 {
+  width: 50%;
 }
 .play-instantly-img {
   position: relative;
@@ -289,4 +299,16 @@ header {
   position: absolute;
   bottom: -2rem;
   left: -6rem;
+}
+.play-instantly-main-img2 {
+  width: 100%;
+  object-fit: cover;
+}
+.play-instantly-sub-img2 {
+  width: 30%;
+  object-fit: cover;
+
+  position: absolute;
+  bottom: -2rem;
+  right: -6rem;
 }
