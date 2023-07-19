@@ -6,6 +6,14 @@
     width: 100%;
     object-fit: cover;
   }
+  .online-games-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20rem;
+  }
+  .card {
+    margin-bottom: 4rem;
+  }
   .nav-container,
   .nav-menus,
   .wearegammer-container {
