@@ -361,13 +361,20 @@ nav {
 .career-button {
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.2rem;
   color: var(--blue_color);
   font-size: 1.6rem;
   font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
 }
+
 .career-button img {
   width: 4.8rem;
+}
+.career-button:hover {
+  border: 0.2rem solid var(--pink_color);
 }
 .career-button-section-container {
   display: flex;
