@@ -37,7 +37,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .wrapper {
-  width: 1140px;
+  width: 114rem;
   margin-inline: auto;
 }
 .button-primary {
@@ -163,6 +163,9 @@ header {
 /* banner section styles end here */
 /*main section starts here */
 /* wearegammer section starts here */
+.wearegammer-section {
+  padding: 9.5rem 0rem;
+}
 .wearegammer-container {
   display: flex;
   justify-content: space-between;
@@ -191,5 +194,60 @@ header {
 
 .wearegammer-container img {
   width: 100%;
+  object-fit: contain;
+}
+/* wearegammer section ends here  */
+/* online games section starts here */
+.online-games-cards {
+  display: flex;
+  gap: 2rem;
+}
+.card img {
+  width: 100%;
   object-fit: cover;
+  cursor: pointer;
+}
+.card {
+  width: 32rem;
+  height: 20rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 1rem;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 155%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 4.8rem;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--pink_color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.online-games-text {
+  text-align: center;
 }
