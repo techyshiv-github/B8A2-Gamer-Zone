@@ -375,6 +375,7 @@ nav {
 }
 .career-button:hover {
   border: 0.2rem solid var(--pink_color);
+  color: var(--pink_color);
 }
 .career-button-section-container {
   display: flex;
