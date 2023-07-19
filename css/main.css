@@ -225,11 +225,12 @@ header {
 
 .overlay {
   position: absolute;
+  border: 0.2rem solid var(--pink_color);
   border-radius: 1rem;
   top: 0;
   left: 0;
-  width: 99%;
-  height: 155%;
+  width: 100%;
+  height: 159%;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.5);
   transition: opacity 0.3s ease;
