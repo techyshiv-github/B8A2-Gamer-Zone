@@ -40,6 +40,9 @@ body {
   width: 114rem;
   margin-inline: auto;
 }
+.white-text {
+  color: #fff;
+}
 .button-primary {
   padding: 1rem 3rem;
   border: none;
@@ -149,7 +152,7 @@ nav {
   display: flex;
   align-items: center;
 }
-header {
+.section-bg {
   background-image: url("../images/Group 14.png");
   background-repeat: no-repeat;
   background-position: top left;
@@ -311,4 +314,46 @@ header {
   position: absolute;
   bottom: -2rem;
   right: -6rem;
+}
+/* play section style ends here */
+/* career section starts here */
+.career-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--pink_color);
+  background-image: url("../images/Group 65.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right;
+}
+.career-section-container {
+  display: flex;
+  color: #fff;
+}
+.career-section-container-left-side {
+  width: 50%;
+}
+.career-section-container-left-side li {
+  list-style: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.career-section-container-right-side {
+  width: 50%;
+}
+.career-section-container-right-side img {
+  width: 100%;
+  object-fit: cover;
+  display: none;
+}
+.career-features-container {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-see-all {
+  color: var(--pink_color);
+  background-color: #fff;
+}
+.career-features-container-right {
+  text-align: right;
 }

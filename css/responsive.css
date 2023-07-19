@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   :root {
     font-size: 40%;
   }
@@ -6,7 +6,8 @@
     width: 100%;
     object-fit: cover;
   }
-  .play-instantly-container {
+  .play-instantly-container,
+  .play-instantly-container2 {
     flex-direction: column;
   }
   .online-games-cards {
@@ -54,9 +55,29 @@
     width: 100%;
     padding: 10rem 0rem 5rem 10rem;
   }
-
+  .career-section-container {
+    flex-direction: column;
+  }
+  .career-section-container-right-side,
+  .career-section-container-left-side {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .career-section-container-right-side img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .career-section {
+    background-image: none;
+  }
   .wrapper {
     width: 80%;
     margin-inline: auto;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  :root {
+    font-size: 45%;
   }
 }
