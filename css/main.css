@@ -198,6 +198,11 @@ header {
 }
 /* wearegammer section ends here  */
 /* online games section starts here */
+.online-games-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
 .online-games-cards {
   display: flex;
   gap: 2rem;
